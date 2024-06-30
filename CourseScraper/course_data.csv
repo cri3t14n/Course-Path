@@ -1,0 +1,198 @@
+department,language,courseType,courseNumber,title,course_url,schedule,recomendedPrerequisites,notApplicableWith
+01,English,BSc,01003,Mathematics 1a (Polytechnical foundation),https://kurser.dtu.dk/course/01003,['Autumn'],[],"['01001', '01005', '01006', '01015', '01901', '01910', '01920']"
+01,English,BSc,01004,Mathematics 1b (Polytechnical Foundation),https://kurser.dtu.dk/course/01004,['Spring'],"[['01001', '01003']]","['01002', '01005', '01015', '01006']"
+01,English,BSc,01006,Advanced Engineering Mathematics 1,https://kurser.dtu.dk/course/01006,"['Autumn', 'Spring']",[],"['01005', '01008', '01015']"
+01,English,BSc,01018,Discrete mathematics 2: algebra,https://kurser.dtu.dk/course/01018,['Autumn E3B (Fri 13-17)'],"[['01017', '01019', '01001', '01003', '01005', '01006', '01015', '01016']]",[]
+01,English,BSc,01019,Discrete Mathematics,https://kurser.dtu.dk/course/01019,['Autumn E2B (Thurs 8-12)'],[],"['01904', '01017']"
+01,English,BSc,01034,Advanced Engineering Mathematics 2,https://kurser.dtu.dk/course/01034,['Autumn E1A (Mon 8-12)'],"[['01002', '01004', '01005', '01006', '01015', '01920']]","['01025', '01035', '01037']"
+01,English,BSc,01227,Graph Theory,https://kurser.dtu.dk/course/01227,['Spring F1B (Thurs 13-17)'],"[['01001', '01003', '01005', '01017', '01019']]",[]
+01,English,BSc,01410,Cryptology 1,https://kurser.dtu.dk/course/01410,['Spring F2A (Mon 13-17)'],"[['01017', '01019']]",[]
+01,English,BSc,01418,Introduction to Partial Differential Equations,https://kurser.dtu.dk/course/01418,['Autumn E5A (Wed 8-12)'],"[['01025', '01034', '01035', '01037']]",[]
+01,English,BSc,02003,Computer Programming (Polytechnical Foundation),https://kurser.dtu.dk/course/02003,['Autumn E4B (Fri 8-12)'],[],"['02631', '02632', '02633', '02634', '02101', '02102']"
+01,English,BSc,02105,Algorithms and Data Structures 1,https://kurser.dtu.dk/course/02105,['Spring F2B (Thurs 8-12)'],"[['02002', '02003', '02100', '02101', '02102', '01017', '01019']]",['02326']
+01,English,BSc,02110,Algorithms and Data Structures 2,https://kurser.dtu.dk/course/02110,['Autumn E2B (Thurs 8-12)'],"[['02105', '02326']]",[]
+01,English,BSc,02112,Embedded Systems Programming,https://kurser.dtu.dk/course/02112,['January'],[['02100']],[]
+01,English,BSc,02113,Digital Systems Design Project,https://kurser.dtu.dk/course/02113,['June'],[['02139']],[]
+01,English,BSc,02114,Design of a RISC-V Microprocessor,https://kurser.dtu.dk/course/02114,['January'],"[['02139', '02155']]",[]
+01,English,BSc,02116,Networked Embedded Systems,https://kurser.dtu.dk/course/02116,['Autumn E1B (Thurs 13-17)'],"[['02112', '02159']]",['02226']
+01,English,BSc,02118,Introduction to Chip Design,https://kurser.dtu.dk/course/02118,['Autumn'],[],[]
+01,English,BSc,02135,Introduction to Cyber Systems,https://kurser.dtu.dk/course/02135,['Spring F2A (Mon 13-17)'],"[['02003', '02631']]",[]
+01,English,BSc,02139,Digital Electronics 2,https://kurser.dtu.dk/course/02139,['Spring F1B (Thurs 13-17)'],[['02138']],[]
+01,English,BSc,02141,Computer Science Modelling,https://kurser.dtu.dk/course/02141,"['Spring F3A (Tues 8-12)', 'Spring F4B (Fri 8-12)']",[['02157']],['02142']
+01,English,BSc,02143,Formal Languages and Semantics,https://kurser.dtu.dk/course/02143,"['Spring F4 (Tues 13-17, Fri 8-12)']",[['02157']],['02141']
+01,English,BSc,02148,Introduction to Coordination in Distributed Applications,https://kurser.dtu.dk/course/02148,['January'],"[['02101', '02102', '02161', '02105']]",[]
+01,English,BSc,02155,Computer Architecture and Engineering,https://kurser.dtu.dk/course/02155,['Autumn E2A (Mon 13-17)'],"[['02132', '02135', '02139', '02100', '02102']]",[]
+01,English,BSc,02156,Logical Systems and Logic Programming,https://kurser.dtu.dk/course/02156,['Autumn E4A (Tues 13-17)'],"[['02100', '02101', '02102', '01017', '01019', '02105']]",[]
+01,English,BSc,02157,Functional Programming,https://kurser.dtu.dk/course/02157,['Autumn E4B (Fri 8-12)'],"[['02002', '02003', '02100', '02101', '02102', '02631', '01017', '01019']]",[]
+01,English,BSc,02158,Concurrent Programming,https://kurser.dtu.dk/course/02158,['Autumn E1B (Thurs 13-17)'],"[['02100', '02101', '02102', '01017', '01019', '02105', '02132', '02135', '02141']]",[]
+01,English,BSc,02159,Operating Systems,https://kurser.dtu.dk/course/02159,['Autumn E2B (Thurs 8-12)'],"[['02100', '02101', '02102', '02105', '02132']]",['62588']
+01,English,BSc,02160,Agile Object-oriented Software Development,https://kurser.dtu.dk/course/02160,['Spring F5 (Wed 8-17)'],"[['02002', '02003', '02631']]","['02161', '02100', '02101', '02102', '02312', '02314']"
+01,English,BSc,02170,Database Systems,https://kurser.dtu.dk/course/02170,['Spring F2B (Thurs 8-12)'],"[['01017', '01019', '02105', '02110']]",['02327']
+01,English,BSc,02413,Statistical Quality Control,https://kurser.dtu.dk/course/02413,['Autumn E1B (Thurs 13-17)'],[['02402']],[]
+01,English,BSc,02418,Statistical modelling: Theory and practice,https://kurser.dtu.dk/course/02418,['Autumn E4A (Tues 13-17)'],"[['02402', '02403']]",[]
+01,English,BSc,02445,Project in Statistical Evaluation for Artificial Intelligence and Data,https://kurser.dtu.dk/course/02445,"['June', 'January']","[['02402', '02403', '02450']]",['02441']
+01,English,BSc,02450,Introduction to Machine Learning and Data Mining,https://kurser.dtu.dk/course/02450,"['Spring F4A (Tues 13-17)', 'Autumn E4A (Tues 13-17)']","[['01001', '01002', '01003', '01004', '01005', '02402', '02403', '02002', '02101', '02102', '02525', '02631', '02632', '02633', '02692']]",[]
+01,English,BSc,02462,Signals and data,https://kurser.dtu.dk/course/02462,['Autumn'],[],[]
+01,English,BSc,02464,Artificial Intelligence and Human Cognition,https://kurser.dtu.dk/course/02464,['Autumn E3A (Tues 8-12)'],"[['01001', '01002', '01003', '01004', '01005', '02002', '02631', '02461', '02462', '02450']]",['02454']
+01,English,BSc,02465,Introduction to reinforcement learning and control,https://kurser.dtu.dk/course/02465,['Spring F4B (Fri 8-12)'],"[['02450', '02403', '02002', '02631', '02632', '02633']]",[]
+01,English,BSc,02467,Computational Social Science,https://kurser.dtu.dk/course/02467,['Spring F5A (Wed 8-12)'],[],"['02805', '02806']"
+01,English,BSc,02502,Image analysis,https://kurser.dtu.dk/course/02502,"['Autumn E3A (Tues 8-12)', 'Spring F3A (Tues 8-12)']","[['01001', '01002', '01003', '01004', '01005', '01006', '01015', '01016', '02101', '02102', '02402', '02403', '02405', '02002', '02631', '02632', '02633', '02692']]","['02501', '02511', '02512']"
+01,English,BSc,02526,Mathematical Modeling,https://kurser.dtu.dk/course/02526,['Spring F3A (Tues 8-12)'],"[['01025', '01035', '02601', '02403', '02402', '02002', '02525', '02631', '10018', '10022']]",['02603']
+01,English,BSc,02580,Geometric Data Analysis and Processing,https://kurser.dtu.dk/course/02580,['Spring F5B (Wed 13-17)'],"[['01002', '01004', '01005', '01006', '02002', '02631', '02632', '02633']]",[]
+01,English,BSc,02601,Introduction to Numerical Algorithms,https://kurser.dtu.dk/course/02601,"['Spring F1B (Thurs 13-17)', 'Autumn E4B (Fri 8-12)']","[['02002', '02631', '02632', '02633', '02525', '01002', '01004', '01005', '01006', '01015', '01016']]",[]
+01,English,BSc,02610,Optimization and Data Fitting,https://kurser.dtu.dk/course/02610,['Autumn E2A (Mon 13-17)'],"[['02601', '02402', '02002', '02631', '02632', '02633']]",[]
+01,English,BSc,02635,Mathematical software programming,https://kurser.dtu.dk/course/02635,['Autumn E1B (Thurs 13-17)'],"[['02525', '02002', '02631', '02633', '02601']]",[]
+10,English,BSc,10041,Physics 2 - General Engineering,https://kurser.dtu.dk/course/10041,['Autumn E5B (Wed 13-17)'],"[['10020', '10022', '10024', '01005']]","['10013', '10036', '10040', '10042', '10046', '10048', '31400', '62773', '62774']"
+10,English,BSc,10063,Physics (Polytechnical Foundation),https://kurser.dtu.dk/course/10063,"['Spring F3A (Tues 8-12)', 'Autumn E3A (Tues 8-12)']",[],"['10001', '10002', '10004', '10010', '10011', '10012', '10020', '10022', '10024', '10026', '10028', '10033', '10050', '10052', '10054', '41015', '10060', '10065']"
+10,English,BSc,10080,Physics for materials and energy,https://kurser.dtu.dk/course/10080,['Spring F3B (Fri 13-17)'],"[['10018', '10020', '10022', '10024', '10063', '01005']]","['10013', '10036', '10040', '10041', '10042', '10046', '10048', '31400', '62773', '62774']"
+10,English,BSc,10104,Introduction to Quantum Mechanics,https://kurser.dtu.dk/course/10104,['Spring F1A (Mon 8-12)'],"[['10018', '10020', '10022', '10024', '10026']]",['10102']
+10,English,BSc,10209,X-ray and Neutron Experiments at International Research Facilities,https://kurser.dtu.dk/course/10209,['June'],"[['01005', '10020', '10033', '10036', '02631', '02632', '02633']]",[]
+10,English,BSc,10240,Design-Build 2: Rational catalyst design for General Engineering,https://kurser.dtu.dk/course/10240,['June'],[],[]
+10,English,BSc,10260,Physics of solar energy and energy storage,https://kurser.dtu.dk/course/10260,['Spring F2B (Thurs 8-12)'],[],[]
+10,English,BSc,10303,Condensed Matter Physics and Nanoscale Materials Physics,https://kurser.dtu.dk/course/10303,"['Autumn E4 (Tues 13-17, Fri 8-12)', 'Spring F4 (Tues 13-17, Fri 8-12)']","[['10034', '10018', '10036', '10041', '31400', '10102', '10104']]",[]
+10,English,BSc,10317,Condensed Matter Physics,https://kurser.dtu.dk/course/10317,"['Autumn E4A (Tues 13-17)', 'Spring F4A (Tues 13-17)']","[['10034', '10018', '10036', '10041', '31400', '10102', '10104']]",['10303']
+10,English,BSc,10420,Physics of Sports,https://kurser.dtu.dk/course/10420,['June'],[['10020']],[]
+10,English,BSc,10720,Research Immersion BSc (June) - Department of Physics,https://kurser.dtu.dk/course/10720,['June'],[],"['10721', '10722']"
+10,English,BSc,10721,Research Immersion BSc (July) - Department of Physics,https://kurser.dtu.dk/course/10721,[],[],"['10720', '10722']"
+10,English,BSc,10722,Research Immersion BSc (August) - Department of Physics,https://kurser.dtu.dk/course/10722,['August'],[],"['10720', '10721']"
+12,English,BSc,12102,Environmental Processes,https://kurser.dtu.dk/course/12102,['Autumn E5 (Wed 8-17)'],[['12000']],[]
+12,English,BSc,12134,Environmental Microbiology,https://kurser.dtu.dk/course/12134,['Autumn E2A (Mon 13-17)'],[['27002']],[]
+12,English,BSc,12139,Resource Engineering,https://kurser.dtu.dk/course/12139,['Autumn E2B (Thurs 8-12)'],[],[]
+12,English,BSc,12143,Bioresources,https://kurser.dtu.dk/course/12143,['Spring F4B (Fri 8-12)'],[],[]
+12,English,BSc,12205,"Climate change – impacts, mitigation and adaptation",https://kurser.dtu.dk/course/12205,['Spring F4A (Tues 13-17)'],[],[]
+12,English,BSc,12211,"Environmental solutions in water, sanitation, and waste management - with and for low-income countries",https://kurser.dtu.dk/course/12211,['June'],[],['12210']
+12,English,BSc,12320,Hydrology,https://kurser.dtu.dk/course/12320,"['Spring F2 (Mon 13-17, Thurs 8-12)']","[['41102', '10020', '02633']]",[]
+12,English,BSc,12411,Basic Soil Mechanics,https://kurser.dtu.dk/course/12411,['Spring F1A (Mon 8-12)'],[],"['62337', '11411']"
+12,English,BSc,12412,Basic Geotechnical Engineering,https://kurser.dtu.dk/course/12412,['Autumn E5B (Wed 13-17)'],"[['11411', '11462']]",['11463']
+12,English,BSc,12415,Basic Course in Pavement Engineering,https://kurser.dtu.dk/course/12415,['Spring F5B (Wed 13-17)'],[],[]
+12,English,BSc,12605,Sustainability and Life Cycle Assessment in the Built Environment,https://kurser.dtu.dk/course/12605,['Autumn E2B (Thurs 8-12)'],"[['11990', '11993']]",['11997']
+12,English,BSc,12701,Introduction to Living systems,https://kurser.dtu.dk/course/12701,['Autumn E1B (Thurs 13-17)'],[],[]
+22,English,BSc,22051,Signals and linear systems in discrete time,https://kurser.dtu.dk/course/22051,['Autumn E1B (Thurs 13-17)'],"[['31605', '22050']]","['31030', '30160', '22052']"
+22,English,BSc,22052,Applied signal processing,https://kurser.dtu.dk/course/22052,"['Spring F2 (Mon 13-17, Thurs 8-12)']","[['02402', '02403', '02405', '31605', '22050']]","['02451', '31038']"
+22,English,BSc,22100,R for Bio Data Science,https://kurser.dtu.dk/course/22100,['Autumn E3A (Tues 8-12)'],"[['01005', '02402', '27024', '23214', '22101', '02631', '02632', '02633', '27002', '27008', '22111']]",['22160']
+22,English,BSc,22101,Introduction to programming in Life Science using Python,https://kurser.dtu.dk/course/22101,['Autumn E3A (Tues 8-12)'],[],"['22110', '02631', '02632', '02633']"
+22,English,BSc,22111,Introduction to Bioinformatics,https://kurser.dtu.dk/course/22111,['Autumn E4A (Tues 13-17)'],"[['27002', '27008']]","['27622', '27633', '36633']"
+22,English,BSc,22113,Unix & Python Programming for Bioinformaticians,https://kurser.dtu.dk/course/22113,"['Spring F2 (Mon 13-17, Thurs 8-12)']",[['22101']],[]
+22,English,BSc,22140,Introduction to Systems Biology,https://kurser.dtu.dk/course/22140,['Autumn E1B (Thurs 13-17)'],"[['27002', '27008', '27022', '27026', '36611', '22111']]","['27042', '36042', '22142', '22141']"
+22,English,BSc,22208,Human Physiology,https://kurser.dtu.dk/course/22208,['Autumn E2B (Thurs 8-12)'],"[['27002', '27022']]",[]
+22,English,BSc,22285,Applied Biomaterials,https://kurser.dtu.dk/course/22285,['Autumn E4B (Fri 8-12)'],[],[]
+22,English,BSc,22400,Design-build 4: Autonomous devices for controlling and studying living systems,https://kurser.dtu.dk/course/22400,['June'],[],[]
+22,English,BSc,22481,Introduction to medical imaging,https://kurser.dtu.dk/course/22481,['Autumn E1B (Thurs 13-17)'],[],[]
+22,English,BSc,22600,Fabrication of micro- and nanostructures,https://kurser.dtu.dk/course/22600,['Autumn E3A (Tues 8-12)'],[],[]
+22,English,BSc,22602,Visualisation of micro and nano structures,https://kurser.dtu.dk/course/22602,['Spring F5A (Wed 8-12)'],[],[]
+22,English,BSc,22612,"Research immersion - Physics in Health Technology, BSc",https://kurser.dtu.dk/course/22612,['January'],[],[]
+23,English,BSc,23212,Practical exercises in food fermentation,https://kurser.dtu.dk/course/23212,['August'],[],[]
+23,English,BSc,23256,Epidemiology - an introduction,https://kurser.dtu.dk/course/23256,['Spring F4A (Tues 13-17)'],[],[]
+23,English,BSc,23258,General medical microbiology,https://kurser.dtu.dk/course/23258,['Spring F1B (Thurs 13-17)'],"[['27002', '27008', '27051']]",[]
+23,English,BSc,23711,Food technology,https://kurser.dtu.dk/course/23711,"['Autumn E1A (Mon 8-12)', 'Autumn E2A (Mon 13-17)', 'Autumn E4B (Fri 8-12)']",[],"['27711', '23511']"
+25,English,BSc,25102,Oceanography,https://kurser.dtu.dk/course/25102,['June'],[],['88100']
+25,English,BSc,25104,An introduction to ocean science and technology,https://kurser.dtu.dk/course/25104,['Spring F4A (Tues 13-17)'],[],[]
+25,English,BSc,25105,Ecology,https://kurser.dtu.dk/course/25105,['Spring F3A (Tues 8-12)'],[],[]
+25,English,BSc,25106,Introduction to genetic methods in engineering,https://kurser.dtu.dk/course/25106,['Autumn E5B (Wed 13-17)'],"[['27008', '27002', '12701']]",[]
+25,English,BSc,25107,Fisheries and aquaculture,https://kurser.dtu.dk/course/25107,['Spring F5B (Wed 13-17)'],[],[]
+25,English,BSc,25108,Applied molecular techniques,https://kurser.dtu.dk/course/25108,['Autumn E2A (Mon 13-17)'],"[['25106', '27026']]",[]
+26,English,BSc,26002,Chemical Synthesis,https://kurser.dtu.dk/course/26002,"['Spring F2A (Mon 13-17)', 'Spring F3A (Tues 8-12)', 'Spring F5 (Wed 8-17) or', 'Autumn E2A (Mon 13-17)', 'Autumn E3A (Tues 8-12) or', 'Autumn E5 (Wed 8-17)', 'Autumn, primarily module 5. If overbooked, classes are offered in 2A+3A. Students will be in the laboratory 8 hours a week, either Mon 13-17', 'Tues 8-12 or Wed 8-17.']",[],"['26003', '26004', '26474']"
+26,English,BSc,26003,Chemical Synthesis,https://kurser.dtu.dk/course/26003,['June'],[],"['26002', '26004', '26474']"
+26,English,BSc,26004,Chemical Synthesis,https://kurser.dtu.dk/course/26004,['August'],[],"['26002', '26003', '26474']"
+26,English,BSc,26020,Chemistry (Polytechnical Foundation),https://kurser.dtu.dk/course/26020,['Autumn E1A (Mon 8-12)'],"[['01001', '01003', '01002', '01004', '10060', '10063', '02002']]","['26000', '26001', '26021', '26022', '26026', '26027', '26028', '26030', '26050', '26171', '26800']"
+26,English,BSc,26127,Experimental Inorganic Chemistry,https://kurser.dtu.dk/course/26127,['January'],"[['26006', '26001', '26124']]",[]
+26,English,BSc,26211,Biophysics and biophysical chemistry,https://kurser.dtu.dk/course/26211,['Spring F4B (Fri 8-12)'],"[['26000', '26001', '26020', '26021', '26022', '26026', '26027', '26028', '26030', '26050', '27022', '10050', '10060', '10063']]","['26200', '26201', '26202']"
+26,English,BSc,26225,Applied Physical Chemistry from Molecular Perspectives,https://kurser.dtu.dk/course/26225,['Autumn E2A (Mon 13-17)'],[],[]
+26,English,BSc,26245,Applied computational chemistry,https://kurser.dtu.dk/course/26245,['June'],"[['26200', '26201', '26211', '26400', '27002', '27020']]",[]
+26,English,BSc,26261,Introduction to Quantum Chemistry,https://kurser.dtu.dk/course/26261,['Autumn E4A (Tues 13-17)'],"[['01005', '01015', '01920', '26200', '26201', '26271', '26211', '01001', '01003', '01002', '01004']]",[]
+26,English,BSc,26407,Practical Organic Chemistry,https://kurser.dtu.dk/course/26407,"['Autumn E5 (Wed 8-17)', 'Autumn E2A (Mon 13-17)', 'Autumn E3A (Tues 8-12)', 'Spring F5 (Wed 8-17) or', 'Spring F2A (Mon 13-17)', 'Spring F3A (Tues 8-12)']",[['26411']],[]
+26,English,BSc,26426,Introduction to Medicinal Chemistry,https://kurser.dtu.dk/course/26426,['Spring F2B (Thurs 8-12)'],"[['27002', '27008', '27020', '26411', '26202', '26211', '26222', '26220']]",[]
+26,English,BSc,26428,Spectroscopy of Organic Compounds,https://kurser.dtu.dk/course/26428,['Spring F2A (Mon 13-17)'],[['26411']],[]
+27,English,BSc,27016,Design-Build 1: Devices for measuring cell growth,https://kurser.dtu.dk/course/27016,['January'],[],[]
+27,English,BSc,27020,Bioengineering (Polytechnical Foundation),https://kurser.dtu.dk/course/27020,"['Autumn E2A (Mon 13-17)', 'Spring F2A (Mon 13-17)']","[['26000', '26026', '26027', '26030', '26050', '26171']]",[]
+27,English,BSc,27022,Biochemistry,https://kurser.dtu.dk/course/27022,['Spring F4B (Fri 8-12)'],"[['23932', '27002', '27008', '27020']]",[]
+27,English,BSc,27023,Experimental biochemistry,https://kurser.dtu.dk/course/27023,['June'],[['27022']],['27024']
+27,English,BSc,27026,Molecular biology,https://kurser.dtu.dk/course/27026,['Autumn E2A (Mon 13-17)'],"[['23932', '27002', '27008', '27020', '12701']]",[]
+27,English,BSc,27027,Experimental molecular microbiology,https://kurser.dtu.dk/course/27027,"['Autumn E1B (Thurs 13-17)', 'Autumn E3B (Fri 13-17)']","[['27002', '27008']]","['27025', '27028']"
+27,English,BSc,27034,Fermentation technology,https://kurser.dtu.dk/course/27034,['Spring F5A (Wed 8-12)'],"[['27022', '27026', '27027', '27028']]",['28344']
+27,English,BSc,27035,Experimental fermentation technology,https://kurser.dtu.dk/course/27035,['June'],[],['28344']
+27,English,BSc,27051,Diversity and application of microorganisms,https://kurser.dtu.dk/course/27051,['Spring F5B (Wed 13-17)'],"[['27022', '27026', '27027', '27028']]",[]
+27,English,BSc,27070,Immunology,https://kurser.dtu.dk/course/27070,['Spring F1B (Thurs 13-17)'],[['27022']],[]
+27,English,BSc,27075,Discovery and design of biotherapeutics,https://kurser.dtu.dk/course/27075,['June'],"[['27022', '27026', '27070']]",[]
+28,English,BSc,28025,Bio Process Technology,https://kurser.dtu.dk/course/28025,['Spring F3A (Tues 8-12)'],[],"['28020', '28022']"
+28,English,BSc,28121,Chemical Unit Operations Laboratory,https://kurser.dtu.dk/course/28121,"['Autumn', 'Spring']","[['28020', '28022', '28025']]","['28344', '28122', '28123', '28125']"
+28,English,BSc,28123,Large Scale Exercises in Process Technology and Chemical Unit Operations - 4 weeks Summer University for International students,https://kurser.dtu.dk/course/28123,[],[],"['28121', '28125']"
+28,English,BSc,28125,Chemical Unit Operations Laboratory,https://kurser.dtu.dk/course/28125,['January'],"[['28020', '28022', '28025']]","['28121', '28122', '28123']"
+28,English,BSc,28140,Introduction to Chemical Reaction Engineering,https://kurser.dtu.dk/course/28140,['Autumn E5A (Wed 8-12)'],"[['28020', '28160']]",['28342']
+28,English,BSc,28150,Introduction to Process Control,https://kurser.dtu.dk/course/28150,['Autumn E2A (Mon 13-17)'],"[['28020', '28160', '28864']]",[]
+28,English,BSc,28160,Mathematical models in chemical engineering,https://kurser.dtu.dk/course/28160,['Spring F2B (Thurs 8-12)'],"[['01025', '01034', '01035', '01037', '28020']]",[]
+28,English,BSc,28221,Chemical Engineering Thermodynamics,https://kurser.dtu.dk/course/28221,['Spring F4A (Tues 13-17)'],[['26222']],['28322']
+30,English,BSc,30400,Electromagnetics,https://kurser.dtu.dk/course/30400,"['Autumn E1 (Mon 8-12, Thurs 13-17)']","[['34600', '30015', '34601', '01005']]","['10036', '31400']"
+30,English,BSc,30405,Introduction to Wireless Technologies,https://kurser.dtu.dk/course/30405,['Spring F1A (Mon 8-12)'],"[['31400', '30400', '31035', '30035', '10036', '34120', '02402', '02403', '02405']]",['31405']
+30,English,BSc,30530,Introduction to GIS,https://kurser.dtu.dk/course/30530,['Spring F4A (Tues 13-17)'],"[['01005', '01006', '01015']]","['02545', '30532', '30535', '30531']"
+34,English,BSc,34020,Optics and photonics,https://kurser.dtu.dk/course/34020,['Spring F1B (Thurs 13-17)'],"[['10009', '10013', '10036', '31400']]","['10370', '34033']"
+34,English,BSc,34023,Projects in Quantum and Nanophotonics,https://kurser.dtu.dk/course/34023,"['Spring', 'Autumn', 'Spring', 'Autumn. Decided with supervisor.']",[],[]
+34,English,BSc,34024,Optical properties of materials,https://kurser.dtu.dk/course/34024,['Autumn E2B (Thurs 8-12)'],"[['34020', '10041']]",['34022']
+34,English,BSc,34031,Applied mathematics for physicists,https://kurser.dtu.dk/course/34031,['Spring F3A (Tues 8-12)'],"[['01005', '10036', '10020']]",['02647']
+34,English,BSc,34121,Introduction to Fibre Optic Communications,https://kurser.dtu.dk/course/34121,['Spring F4B (Fri 8-12)'],[['34120']],[]
+34,English,BSc,34126,Experimental course in optical communication,https://kurser.dtu.dk/course/34126,"['Autumn E5B (Wed 13-17)', 'Spring F5B (Wed 13-17)']",[],['34129']
+34,English,BSc,34127,Experimental optics and photonics,https://kurser.dtu.dk/course/34127,['June'],"[['34020', '34021']]","['34033', '34045', '34046', '34125']"
+34,English,BSc,34129,Experimental course in optical communication,https://kurser.dtu.dk/course/34129,"['Autumn E3B (Fri 13-17)', 'Spring F3B (Fri 13-17)']",[],['34126']
+34,English,BSc,34229,Project Work – Bachelor in Cyber Technology,https://kurser.dtu.dk/course/34229,"['Spring F5B (Wed 13-17)', 'June']","[['34302', '34313', '34334']]",[]
+34,English,BSc,34315,Internet of things – application and infrastructure implementation,https://kurser.dtu.dk/course/34315,['Spring F2B (Thurs 8-12)'],[],['34338']
+34,English,BSc,34322,Communication Network for Control and Data Acquisition,https://kurser.dtu.dk/course/34322,['Spring F4A (Tues 13-17)'],[],"['34310', '34311', '34312', '34313']"
+34,English,BSc,34325,Communication technologies and application development for Internet-of-Things (IoT),https://kurser.dtu.dk/course/34325,['Spring F2B (Thurs 8-12)'],"[['34315', '34338', '34322']]",['34346']
+34,English,BSc,34338,Telecommunication programming projects with Arduino,https://kurser.dtu.dk/course/34338,['January'],[],['34315']
+34,English,BSc,34602,Engineering practices 2 - Electrotechnology,https://kurser.dtu.dk/course/34602,['June'],"[['31011', '31001', '02138']]",['34301']
+34,English,BSc,34620,Basic power electronics in energy systems,https://kurser.dtu.dk/course/34620,['Spring F1B (Thurs 13-17)'],[],"['31350', '31039', '31351', '62756']"
+34,English,BSc,34630,Integrated analog electronics 1,https://kurser.dtu.dk/course/34630,['Autumn E4B (Fri 8-12)'],"[['31003', '62732']]","['31631', '31630']"
+34,English,BSc,34721,Linear control design 1,https://kurser.dtu.dk/course/34721,"['Autumn E5B (Wed 13-17)', 'Spring F5B (Wed 13-17)']","[['01005', '01035']]","['28150', '28351', '28352', '31300', '31301', '34722']"
+34,English,BSc,34723,Introduction to Programmable Logic Controllers,https://kurser.dtu.dk/course/34723,"['Autumn', 'Spring']",[],"['31342', '31343', '31344', '31345', '34724']"
+34,English,BSc,34724,Introduction to Programmable Logic Controllers,https://kurser.dtu.dk/course/34724,[],[],"['31342', '31343', '31344', '31345', '34723']"
+41,English,BSc,41011,User-centered design,https://kurser.dtu.dk/course/41011,['Autumn E5A (Wed 8-12)'],[],"['42010', '41010']"
+41,English,BSc,41013,Introduction to Prototyping,https://kurser.dtu.dk/course/41013,['January'],[['41011']],['41010']
+41,English,BSc,41031,Industrial design 1,https://kurser.dtu.dk/course/41031,['January'],"[['41012', '42012', '41010', '42010']]",['42031']
+41,English,BSc,41051,Product life and environmental issues,https://kurser.dtu.dk/course/41051,['Autumn E1A (Mon 8-12)'],"[['41011', '41603', '41020']]","['41627', '42051']"
+41,English,BSc,41271,Ship design,https://kurser.dtu.dk/course/41271,"['Spring F2 (Mon 13-17, Thurs 8-12)']","[['41202', '41201']]",[]
+41,English,BSc,41312,Basic fluid mechanics,https://kurser.dtu.dk/course/41312,"['Autumn E3A (Tues 8-12)', 'Spring F3A (Tues 8-12)']","[['01005', '01001', '01002']]",['41102']
+41,English,BSc,41341,Ecocar,https://kurser.dtu.dk/course/41341,"['Spring F5B (Wed 13-17)', 'Autumn E5B (Wed 13-17)']","[['41344', '41343', '41347', '41015', '41312', '41511', '41533', '02102', '31001', '31003']]","['41412', '41342']"
+41,English,BSc,41342,Ecocar,https://kurser.dtu.dk/course/41342,"['Autumn E5B (Wed 13-17)', 'Spring F5B (Wed 13-17)']","[['41344', '41343', '41347', '41015', '41312', '41511', '41533', '02102', '31001', '31003']]","['41412', '41341']"
+41,English,BSc,41347,Internal combustion engines - theory for the application of conventional and renewable fuels,https://kurser.dtu.dk/course/41347,['Autumn E2A (Mon 13-17)'],"[['41401', '41045']]",['41344']
+41,English,BSc,41401,Fundamentals of engineering thermodynamics,https://kurser.dtu.dk/course/41401,['Spring F2B (Thurs 8-12)'],"[['10022', '10028', '10034', '26201']]","['41045', '62603']"
+41,English,BSc,41511,Machine elements - basics,https://kurser.dtu.dk/course/41511,['Spring F2A (Mon 13-17)'],"[['10022', '62675', '41501', '41533', '41502', '41534', '41659', '41681']]",['41513']
+41,English,BSc,41561,Structural optimization,https://kurser.dtu.dk/course/41561,['Spring F2B (Thurs 8-12)'],"[['41812', '02631', '02632', '02633']]",[]
+41,English,BSc,41615,Mechanical CAD,https://kurser.dtu.dk/course/41615,['Spring F1B (Thurs 13-17)'],[],"['41648', '41630', '41601', '41816', '41817', '41818', '42618', '42617', '42616', '41616', '41618', '41617']"
+41,English,BSc,41680,Introduction to advanced materials,https://kurser.dtu.dk/course/41680,['Spring F2B (Thurs 8-12)'],[],"['41650', '41657', '41659', '41681', '41683', '41686', '62009', '62077', '62081', '62183', '62678']"
+41,English,BSc,41684,Materials technology,https://kurser.dtu.dk/course/41684,['Spring F2B (Thurs 8-12)'],"[['41680', '41650', '41015']]","['41657', '41659', '41681', '41683', '41686', '62009', '62077', '62081', '62679']"
+41,English,BSc,41685,Materials characterization and testing,https://kurser.dtu.dk/course/41685,['Spring F1B (Thurs 13-17)'],"[['41650', '41659', '41680', '41681', '41683', '41686', '41015', '10041']]",[]
+41,English,BSc,41789,Introduction to 3D printing: processes and theory,https://kurser.dtu.dk/course/41789,['Spring F5A (Wed 8-12)'],"[['41714', '41501', '41659']]",[]
+41,English,BSc,41812,Introduction to Finite Element Analysis,https://kurser.dtu.dk/course/41812,"['Autumn E1B (Thurs 13-17)', 'January']","[['02631', '62646', '41502', '41534']]","['41545', '11305', '41958', '41819', '41809']"
+41,English,BSc,41814,Heat transfer,https://kurser.dtu.dk/course/41814,['Autumn E4A (Tues 13-17)'],"[['01030', '01035']]",[]
+41,English,BSc,41831,Introduction to Experimental Mechanics,https://kurser.dtu.dk/course/41831,['January'],"[['41203', '02631']]",['11332']
+42,English,BSc,38001,Sustainable Entrepreneurship,https://kurser.dtu.dk/course/38001,['Spring F3A (Tues 8-12)'],[],[]
+42,English,BSc,42009,Introductory Economics,https://kurser.dtu.dk/course/42009,['Autumn E5A (Wed 8-12)'],[],[]
+42,English,BSc,42101,Introduction to Operations Research,https://kurser.dtu.dk/course/42101,"['Autumn E2A (Mon 13-17)', 'Spring F2A (Mon 13-17)']",[],['02701']
+42,English,BSc,42421,Management and Organization,https://kurser.dtu.dk/course/42421,['Autumn E3B (Fri 13-17)'],[],"['42420', '42922', '62118']"
+42,English,BSc,42586,Decisions under uncertainty,https://kurser.dtu.dk/course/42586,['Spring F4A (Tues 13-17)'],"[['02105', '02450']]",[]
+42,English,BSc,42620,"Science, Technology and Society (Polytechnical Foundation)",https://kurser.dtu.dk/course/42620,"['January', 'June']",[],[]
+42,English,BSc,42622,"Science, Technology and Society (Polytechnical Foundation)",https://kurser.dtu.dk/course/42622,['August'],[],"['42610', '42611', '42620']"
+46,English,BSc,46000,Introduction to Wind Energy,https://kurser.dtu.dk/course/46000,['Spring F3A (Tues 8-12)'],"[['01005', '41312', '41102', '41501']]",[]
+46,English,BSc,46035,Energy management with embedded systems,https://kurser.dtu.dk/course/46035,['January'],"[['02101', '30010', '02318', '02101', '02102', '02312', '02314']]","['31070', '31728', '46760']"
+46,English,BSc,46040,Introduction to energy analytics,https://kurser.dtu.dk/course/46040,['Spring F5B (Wed 13-17)'],[['02402']],['31762']
+46,English,BSc,46045,Design and Implementation of Coordinated Distributed Energy Systems,https://kurser.dtu.dk/course/46045,['June'],"[['31728', '31070', '31300']]",['31725']
+46,English,BSc,46055,General electrical engineering,https://kurser.dtu.dk/course/46055,['Spring F1B (Thurs 13-17)'],[],['31710']
+46,English,BSc,46060,Hybrid power plant design project,https://kurser.dtu.dk/course/46060,['June'],[['47214']],[]
+46,English,BSc,46440,Manufacturing of Advanced Fiber Composites,https://kurser.dtu.dk/course/46440,['January'],[],[]
+46,English,BSc,46795,"Formula Student Electric: implementation, testing and design optimization (BlueDot)",https://kurser.dtu.dk/course/46795,[],[],[]
+46,English,BSc,46797,"Formula Student Electric: implementation, testing and design optimization",https://kurser.dtu.dk/course/46797,['Spring F4B (Fri 8-12)'],[],['31790']
+47,English,BSc,47201,Engineering thermodynamics,https://kurser.dtu.dk/course/47201,['Spring F4B (Fri 8-12)'],"[['01005', '01006', '10018', '10020', '10022', '10024']]",[]
+47,English,BSc,47202,Introduction to future energy,https://kurser.dtu.dk/course/47202,['Autumn E4A (Tues 13-17)'],[],[]
+47,English,BSc,47203,Design-Build 3: solar cooker,https://kurser.dtu.dk/course/47203,['January'],[],[]
+47,English,BSc,47205,Electrochemical energy technologies,https://kurser.dtu.dk/course/47205,['Spring F5A (Wed 8-12)'],"[['47202', '10041']]",[]
+47,English,BSc,47209,"3D imaging, analysis and modelling",https://kurser.dtu.dk/course/47209,['Autumn E2B (Thurs 8-12)'],"[['02631', '02632', '02633', '02692']]",[]
+47,English,BSc,47211,Electrochemical energy storage and Power2X,https://kurser.dtu.dk/course/47211,['Autumn E2B (Thurs 8-12)'],"[['31711', '31713', '47202', '10041']]",[]
+47,English,BSc,47212,Computer simulation of materials,https://kurser.dtu.dk/course/47212,['Autumn E1B (Thurs 13-17)'],"[['41680', '41681', '41659', '41686', '62009', '02631', '02632', '02633']]",['47210']
+47,English,BSc,47213,Introduction to Power-to-X (online),https://kurser.dtu.dk/course/47213,['Spring F1B (Thurs 13-17)'],[],['47211']
+47,English,BSc,47214,Introduction to future energy technologies (online),https://kurser.dtu.dk/course/47214,['Autumn E5A (Wed 8-12)'],[],['47202']
+47,English,BSc,47215,Rational design of a heat exchanger for solar cells (online),https://kurser.dtu.dk/course/47215,['January'],[],[]
+88,English,BSc,KU005,Modelling of physiological systems,https://kurser.dtu.dk/course/KU005,['Autumn E2A (Mon 13-17)'],"[['01005', '01035', '31501', '22431', '31502', '22432', '31605', '22050']]",[]
+88,English,BSc,KU012,Medical Science and Technology Studies,https://kurser.dtu.dk/course/KU012,['Autumn E4B (Fri 8-12)'],"[['31501', '22431', '31502', '22432', '31605', '22050', '41650']]",['42610']
+62,English,BSc,63852,Project Management,https://kurser.dtu.dk/course/63852,"['August', 'January']",[],"['42430', '42429', '63851', '62074']"
+62,English,BSc,63860,System and Network Security,https://kurser.dtu.dk/course/63860,['Autumn E2A (Mon 13-17)'],"[['62577', '62443', '62581', '62229']]","['62235', '62541', '62538', '62587', '62530']"
+62,English,BSc,63861,System and Network Security - Project,https://kurser.dtu.dk/course/63861,['January'],"[['62407', '62501', '62530', '62575', '02233', '63860']]","['62235', '62538', '62541', '62419']"
+62,English,BSc,63880,Data analytics in transport with emphasis on railways,https://kurser.dtu.dk/course/63880,['Autumn E4A (Tues 13-17)'],[['62668']],"['42890', '62637']"
