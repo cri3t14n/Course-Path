@@ -7,8 +7,8 @@ class CourseInfo(models.Model):
     language = models.CharField(max_length=15)
     courseType = models.CharField(max_length=10)
     schedule = models.CharField(max_length=255)
-    notApplicableWith = models.CharField(max_length=255)
-    recomendedPrerequisites = models.CharField(max_length=255)
+    notApplicableWith = models.ManyToManyField('self', related_name='not_applicable_with', symmetrical=False, blank=True)
+    recommendedPrerequisites = models.ManyToManyField('self', related_name='prerequisites', symmetrical=False, blank=True)
     course_url = models.URLField(max_length=255)
     completed = models.BooleanField(default=False)
 
