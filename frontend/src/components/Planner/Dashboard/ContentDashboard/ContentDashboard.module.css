@@ -1,0 +1,108 @@
+.mainView {
+    display: flex;
+    flex-direction: column;
+    color: #191919;
+}
+
+.degreeName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+    border-bottom: 2px solid #a40000;
+    border-radius: 2px;
+    color: #a40000;
+    font-weight: 600;
+}
+
+.progress {
+    margin-top: 25px;
+}
+
+.progress span {
+    font-size: 13px;
+}
+
+.progressBar {
+    width: 100%;
+    background-color: #e3e3e3;
+    border-radius: 12px;
+}
+
+.myProgress {
+    width: 3%;
+    height: 13px;
+    background-color: #a40000;
+    border-radius: 12px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transition: all .85s ease;
+}
+
+.requirements {
+    margin-top: 20px;
+}
+
+.showRequirements {
+    color: #a40000;
+    font-weight: 500;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.showRequirement:hover,
+.showRequirements:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.caretIcon {
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.line {
+    margin: 10px;
+    height: 2px;
+    background-color: #bcbcbc;
+}
+
+.smallLine {
+    margin: 10px 0;
+    height: 1px;
+    background-color: #bcbcbc;
+}
+
+.allRequirements {
+    width: 360px;
+}
+
+.requirementItem {
+    width: 100%;
+    color: #414141;
+    padding: 0 15px;
+}
+
+.innerCaretIcon {
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.showRequirement {
+    display: flex;
+    gap: 10px;
+    padding-left: 9px;
+}
+
+.showRequirement div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showRequirement div span:nth-child(2) {
+    font-size: 12px;
+}

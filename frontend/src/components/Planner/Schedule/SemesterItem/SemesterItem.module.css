@@ -1,0 +1,82 @@
+.semesterItem {
+    width: 100%;
+    min-height: 60px;
+    border: 2px solid #d8d8d8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #4f4f4f;
+    padding: 15px 20px;
+}
+
+.semesterTop {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+}
+
+.semesterTopLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.semesterTitle {
+    /* display: flex; */
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    /* color: #4f4f4f; */
+}
+
+.semesterCredits {
+    margin-top: 3px;
+    font-size: 13px;
+    line-height: 1;
+    /* color: #4f4f4f; */
+}
+
+.separator {
+    font-size: 22px;
+    /* margin: 2px; */
+}
+
+.semesterTopRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.semesterSize {
+    border: 2px solid #939393;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.dotsIcon {
+    font-size: 25px;
+    color: #939393;
+    padding-top: 2px;
+}
+
+.sizeIcon {
+    color: #939393;
+}
+
+.semesterSize:hover,
+.semesterDots:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.semesterContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(24rem, 100%), 1fr));
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 8px;
+}

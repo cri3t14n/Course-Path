@@ -1,0 +1,25 @@
+/* src/components/CourseList/CourseList.module.css */
+
+.courseList {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.term {
+  margin-top: 20px;
+}
+
+.courseTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.courseTable th, .courseTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.courseTable th {
+  background-color: #f2f2f2;
+}
