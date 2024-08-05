@@ -1,0 +1,80 @@
+.courseItem {
+    width: 380px;
+    min-height: 60px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    margin: 7px auto;
+    /* gap: 10px; */
+}
+
+.dragComponent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    align-self: stretch;
+    background-color: rgb(0, 202, 0);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+
+.dragIcon {
+    color: white;
+    font-size: 16px;
+    padding: 1.2px;
+}
+
+.trashIcon {
+    font-size: 14px;
+    color: #a40000;
+}
+
+.trashIcon:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.courseInfo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 5px 10px;
+}
+
+.topCourseInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #757575;
+}
+
+.courseTitle {
+    width: 320px;
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 1.1;
+    /* white-space: pre-line; */
+}
+
+.courseDetails {
+    margin-top: 5px;
+    color: #757575;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.separator {
+    font-size: 14px;
+    line-height: 1cap;
+    color: #757575;
+    padding-bottom: 3px;
+    /* margin: 2px; */
+}

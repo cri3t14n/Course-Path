@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap'); /* Using Roboto Condensed font for a balanced look */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    position: relative;
+    text-align: center;
+}
+
+.logo {
+    width: 400px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.dtuText {
+    font-family: 'Roboto Condensed', sans-serif; /* Set the Roboto Condensed font */
+    font-size: 78px; /* Adjust size as needed */
+    font-weight: 600; /* Normal weight */
+    color: #a40000; /* Match color with rhombuses */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    letter-spacing: 0px; /* Add letter spacing to enhance the look */
+    text-transform: uppercase; /* Transform text to uppercase */
+    position: absolute;
+    top: 33%;
+    transform: translateY(-50%);
+}
+
+.navLines {
+    position: absolute;
+    top: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Adjust gap as needed */
+    align-items: center; /* Center align the navigation lines */
+    margin-top: 50px; /* Space below DTU text */
+}
+
+.navLine {
+    position: relative;
+    width: 170px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed to accommodate text */
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    padding: 0; /* Add padding to increase hover area */
+    box-sizing: border-box; /* Include padding in size calculations */
+    overflow: visible; /* Ensure the text is contained within the element */
+    gap: 2px;
+}
+
+.navLine::before {
+    content: '';
+    position: absolute;
+    width: 75px; /* Initial width */
+    height: 14px; /* Initial height */
+    background-color: #a40000; /* Match color with rhombuses */
+    /* border-radius: 18px; Rounded edges */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.1s ease, height 0.2s ease;
+}
+
+.rhombus {
+    width: 80px; /* Adjust width to stretch */
+    height: 40px; /* Adjust height to stretch */
+    background-color: #a40000; /* Red color matching the logo */
+    border-radius: 10px; /* More rounded edges */
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.navLine::after {
+    content: attr(data-page);
+    color: white; /* Initial text color matching the rhombuses */
+    font-size: 10px; /* Initial font size */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease, font-size 0.2s ease; /* Transition for scaling effect */
+}
+
+.navLine:hover::before {
+    width: 80px; /* New width to cover both rhombuses */
+    height: 40px; /* New height to cover both rhombuses */
+    /* border-radius: 20px; */
+    z-index: 2;
+}
+
+.navLine:hover .rhombus {
+    z-index: 1;
+}
+
+.navLine:hover::after {
+    color: white;
+    font-size: 20px; /* Adjust font size as needed */
+    transform: translate(-50%, -50%) scale(1.2); /* Scale up effect on hover */
+    z-index: 3;
+}

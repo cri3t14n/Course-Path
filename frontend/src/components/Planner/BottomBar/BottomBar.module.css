@@ -1,0 +1,11 @@
+.bottomBar {
+    position: absolute;
+    width: calc(100vw - 25rem);
+    height: 18rem;
+
+    left: 25rem;
+    bottom: 0;
+
+    background-color: aquamarine;
+    z-index: 7;
+}

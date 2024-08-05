@@ -1,0 +1,28 @@
+.mainComponent {
+    width: 325px;
+    min-height: 40px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    gap: 9px;
+    border: 1.5px solid rgb(0, 202, 0);
+    padding: 0 7px;
+}
+
+.courseTitle {
+    line-height: 1.1;
+    width: 232px;
+    padding: 5px 0;
+}
+
+.schedulePlacement {
+    flex-grow: 1;
+    text-align: right;
+    font-size: 9px;
+    font-style: italic;
+    letter-spacing: 0.01px;
+}

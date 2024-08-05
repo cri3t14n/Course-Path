@@ -1,0 +1,83 @@
+[
+    {
+        "planID": "1",
+        "planName": "Plan 1",
+        "degree": "BSc. General Engineering",
+        "totalECTS": 180,
+        "schedule": [
+            {
+                "name": "Term 1",
+                "year": "2024",
+                "season": "Fall",
+                "coursesNr": ["01003", "26020", "27016"]
+            },
+            {
+                "name": "Term 2",
+                "year": "2025",
+                "season": "Spring",
+                "coursesNr": ["02402", "10063", "10240"]
+            },
+            {
+                "name": "Term 3",
+                "year": "2025",
+                "season": "Fall",
+                "coursesNr": ["01418"]
+            },
+            {
+                "name": "Term 4",
+                "year": "2026",
+                "season": "Spring",
+                "coursesNr": ["22400"]
+            },
+            {
+                "name": "Term 5",
+                "year": "2026",
+                "season": "Fall",
+                "coursesNr": []
+            },
+            {
+                "name": "Term 6",
+                "year": "2027",
+                "season": "Spring",
+                "coursesNr": []
+            }
+        ],
+        "degreeCourses": [
+            {
+                "categoryID": "1",
+                "name": "The polytechnic foundation",
+                "color": "rgb(0, 202, 0)",
+                "courses": [
+                    { "courseNr": "01003", "name": "Mathematics 1a (Polytechnical Foundation)", "ects": 10 },
+                    { "courseNr": "02003", "name": "Computer Programming", "ects": 5 },
+                    { "courseNr": "26020", "name": "Fundamental Chemistry", "ects": 5 },
+                    { "courseNr": "10063", "name": "Physics 1/2 (Polytechnical Foundation)", "ects": 5 },
+                    { "courseNr": "01004", "name": "Mathematics 1b (Polytechnical Foundation)", "ects": 10 },
+                    { "courseNr": "02402", "name": "Statistics (Polytechnical Foundation)", "ects": 5 },
+                    { "courseNr": "27020", "name": "Bioengineering (Polytechnical Foundation)", "ects": 5 },
+                    { "courseNr": "42620", "name": "Science, Technology and Society (Polytechnical Foundation)", "ects": 5 }
+                ]
+            },
+            {
+                "categoryID": "2",
+                "name": "Projects",
+                "color": "#e84048",
+                "courses": [
+                    { "courseNr": "27016", "name": "Design-Build 1: Devices for Measuring Cell Growth", "ects": 5 },
+                    { "courseNr": "10240", "name": "Design-Build 2: Rational Catalyst Design", "ects": 5 },
+                    { "courseNr": "47203", "name": "Design-Build 3: Solar Cooker", "ects": 5 },
+                    { "courseNr": "22400", "name": "Design-build 4: Autonomous devices for controlling and studying living systems", "ects": 5 }
+                ]
+            }
+        ],
+        "electiveCourses": {
+            "categoryID": "99",
+            "color":"rgb(252, 118, 52)",
+            "courses": [
+                { "courseNr": "01418", "name": "Introduction to Partial Differential Equations", "ects": 5 },
+                { "courseNr": "02110", "name": "Algorithms and Data Structures 2", "ects": 5 },
+                { "courseNr": "06969", "name": "Intro to Females 101", "ects": 15 }
+            ]
+        }
+    }
+]

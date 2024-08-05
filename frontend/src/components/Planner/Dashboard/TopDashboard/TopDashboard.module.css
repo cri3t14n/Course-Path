@@ -1,0 +1,104 @@
+.mainView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Ensure the child element with absolute positioning is positioned relative to this container */
+}
+
+.topView {
+    display: flex;
+    gap: 20px;
+}
+
+.editNote {
+    color: #606060;
+    background-color: white;
+    border: 0px;
+    font-size: 18px;
+    z-index: 10;
+}
+
+.editNote:hover {
+    opacity: 70%;
+}
+
+.planDropdown {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 3px;
+    align-items: center;
+    padding: 0 15px;
+    border: 1px solid #606060;
+    position: relative; /* Ensure the dropdown content is positioned relative to this button */
+}
+
+.planDropdownContent {
+    width: 230px; /* Match the width of the button */
+    position: absolute;
+    top: 40px; /* Position it just below the button */
+    left: 0;
+    z-index: 2; /* Ensure it overlays other content */
+    background-color: white; /* Ensure the dropdown content has a background color */
+}
+
+.planTitle {
+    padding: 0 15px;
+    color: #545454;
+    font-size: 18px;
+    width: 160px;
+    display: flex;
+}
+
+.leftPlanDropdown {
+    display: flex;
+    align-items: center;
+}
+
+.caretIcon {
+    color: #606060;
+    font-size: 20px;
+}
+
+.planItem {
+    height: 40px;
+    width: 100%; /* Ensure it fills the dropdown content width */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #545454;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #606060;
+    border-radius: 3px;
+}
+
+.planItem:hover {
+    background-color: #e9e9e9;
+}
+
+.addPlan {
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    height: 40px;
+    background-color: #a40000;
+    border: 0px solid white;
+    border-radius: 4px;
+    color: white;
+    align-items: center;
+}
+
+.addPlan:hover {
+    opacity: 70%;
+}
+
+.addPlan span {
+    font-weight: 600;
+}
+
+.plusIcon {
+    font-size: 12px;
+}

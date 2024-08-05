@@ -1,0 +1,16 @@
+.mainView {
+    padding: 20px;
+    width: 25rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: calc(100vh - 3rem);
+    overflow-y: auto;
+}
+
+.mainView h1 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
