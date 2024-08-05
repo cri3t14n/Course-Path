@@ -52,14 +52,13 @@ for course in courses:
         course_name = course_link_element.text[8:]
         course_url = course_link_element.get_attribute('href')
         course_code = course_url.split('/')[-1]
-
         driver.execute_script("window.open('{}');".format(course_url))
         driver.switch_to.window(driver.window_handles[1])
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'td')))
         
 
-        recommended_prerequisites = []
-        not_applicable_with = []
+        recommended_prerequisites = ''
+        not_applicable_with = ''
         department = []
         language = []
         course_type = []
@@ -71,10 +70,10 @@ for course in courses:
                 label = row.find_element(By.CSS_SELECTOR, 'label').text
                 if "Not applicable together with" in label:
                     links = row.find_elements(By.CSS_SELECTOR, 'a.CourseLink')
-                    not_applicable_with = [link.text.strip() for link in links]
+                    not_applicable_with = ', '.join([link.text.strip() for link in links])
                 elif "Recommended Academic prerequisites" in label:
                     links = row.find_elements(By.CSS_SELECTOR, 'a.CourseLink')
-                    recommended_prerequisites = [link.text.strip() for link in links]
+                    recommended_prerequisites = ', '.join([link.text.strip() for link in links])
                 elif "Department" in label:
                     department = row.find_element(By.CSS_SELECTOR, 'td[title]')
                     department = department.get_attribute('title')[:2]
@@ -104,7 +103,7 @@ for course in courses:
 
 driver.quit()
 
-header = ['department', 'language', 'course_type', 'course_code', 'course_name', 'course_url','schedule', 'recommended_prerequisites', 'not_applicable_with']
+header = ['department', 'language', 'courseType', 'courseNumber', 'title', 'course_url','schedule', 'recommendedPrerequisites', 'notApplicableWith']
 
 csv_file = 'course_data.csv'
 with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
