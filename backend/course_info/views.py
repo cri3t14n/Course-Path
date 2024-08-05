@@ -1,12 +1,13 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .serializers import CourseInfoSerializer
-from .models import CourseInfo
+from .serializers import CourseInfoSerializer, DegreeRequirementsSerializer, CoursePlanSerializer
+from .models import CourseInfo, DegreeRequirements, CoursePlan
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
+from django.contrib.auth import authenticate
 import json
 
 
@@ -19,10 +20,11 @@ def submit_login_form(request):
             username = data.get('username', '')
             password = data.get('password', '')
 
-            if username == 'admin@dtu.dk' and password == '1234':
+            user = authenticate(request, username=username, password=password)
+            if user is not None:
                 return JsonResponse({'message': 'Login successful!'}, status=200)
             else:
-                return JsonResponse({'message': 'Invalid username or password.'}, status=400)
+                return JsonResponse({'message': 'Invalid username or password.'}, status=401)
 
         except json.JSONDecodeError:
             return JsonResponse({'message': 'Invalid JSON.'}, status=400)

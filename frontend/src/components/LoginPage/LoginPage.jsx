@@ -67,7 +67,7 @@ function LoginPage({ onLogin }) {
                     <input
                       className={`${styles.userNameInput} ${styles.text} ${styles.fullWidth}`}
                       name="username"
-                      type="email"
+                      // type="email"
                       value={username}
                       tabIndex="1"
                       spellCheck="false"
