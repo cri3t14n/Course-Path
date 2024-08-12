@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react"
 import styles from './TopDashboard.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPenToSquare } from '@fortawesome/free-regular-svg-icons'
-import { faCaretDown, faCaretUp, faPlus } from '@fortawesome/free-solid-svg-icons' 
+import { faCaretDown, faCaretUp, faPlus } from '@fortawesome/free-solid-svg-icons'
 
 import { extractPlanNames } from './../../../Planner/utils'
 

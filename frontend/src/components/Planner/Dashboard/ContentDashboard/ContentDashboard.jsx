@@ -103,7 +103,7 @@ export default function ContentDashboard(props) {
                                 
                                 {dropdownsOpen[index + 2] && (
                                     getCoursesInSchedule(selectedPlanID, category.courses).map((course) => (
-                                        <CompletedItem key={course.courseNr} course={course.name} schedulePlacement={getCourseTermDetails(selectedPlanID, course.courseNr)} itemColor={category.color} />
+                                        <CompletedItem key={course.courseNr} course={course.name} courseNr={course.courseNr} schedulePlacement={getCourseTermDetails(selectedPlanID, course.courseNr)} itemColor={category.color} />
                                     ))
                                 )}
 
@@ -147,7 +147,7 @@ export default function ContentDashboard(props) {
 
                             {
                                 getElectivesInSchedule(selectedPlanID, plan.electiveCourses.courses).map((course) => (
-                                    <CompletedItem key={course.courseNr} course={course.name} schedulePlacement={getCourseTermDetails(selectedPlanID, course.courseNr)} itemColor={plan.electiveCourses.color} />
+                                    <CompletedItem key={course.courseNr} course={course.name} courseNr={course.courseNr} schedulePlacement={getCourseTermDetails(selectedPlanID, course.courseNr)} itemColor={plan.electiveCourses.color} />
                                 ))
                             }
                         

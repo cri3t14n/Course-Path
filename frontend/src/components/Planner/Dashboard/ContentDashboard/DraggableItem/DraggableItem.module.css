@@ -11,6 +11,10 @@
     gap: 10px;
 }
 
+.mainComponent:hover {
+    cursor: grab;
+}
+
 .dragComponent {
     display: flex;
     align-items: center;

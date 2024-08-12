@@ -13,6 +13,10 @@
     padding: 0 7px;
 }
 
+.mainComponent:hover {
+    cursor: pointer;
+}
+
 .courseTitle {
     line-height: 1.1;
     width: 232px;

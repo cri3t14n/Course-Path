@@ -72,11 +72,3 @@
     opacity: 60%;
     cursor: pointer;
 }
-
-.semesterContent {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(24rem, 100%), 1fr));
-    gap: 10px;
-    justify-content: space-between;
-    margin-top: 8px;
-}
