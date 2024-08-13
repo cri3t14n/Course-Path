@@ -39,8 +39,36 @@ class HelloWorld(APIView):
         return Response({"message": "Hello Cristian and Tobias!"}, status=status.HTTP_200_OK)
 
 
+class CoursePlanDetailAPIView(APIView):
+    # Disable authentication and permissions
+    authentication_classes = []
+    permission_classes = []
 
+    def get(self, request, pk, *args, **kwargs):
+        """
+        Retrieve a course plan by its primary key/id.
+        """
+        try:
+            plan = CoursePlan.objects.get(pk=pk)
+            serializer = CoursePlanSerializer(plan)
+            return Response(serializer.data)
+        except CoursePlan.DoesNotExist:
+            return Response({'message': 'CoursePlan not found'}, status=status.HTTP_404_NOT_FOUND)
+        
 
-class CourseInfoView(viewsets.ModelViewSet):
-    serializer_class = CourseInfoSerializer
+class CourseInfoAPIView(viewsets.ModelViewSet):
+    authentication_classes = []
+    permission_classes = []
     queryset = CourseInfo.objects.all()
+    serializer_class = CourseInfoSerializer
+
+    def get_queryset(self):
+        """
+        Optionally restricts the returned purchases to a given user,
+        by filtering against a `username` query parameter in the URL.
+        """
+        queryset = self.queryset
+        username = self.request.query_params.get('username', None)
+        if username is not None:
+            queryset = queryset.filter(user__username=username)
+        return queryset
