@@ -12,7 +12,6 @@ const MainPage = () => {
 
     return (
         <div className={styles.wrapper}>
-            {/* <img src={logo} alt="DTU Logo" className={styles.logo} /> */}
             <div className={styles.dtuText}>DTU</div>
             <div className={styles.navLines}>
                 {['Home', 'About', 'Services', 'Contact', 'Planner'].map((page) => (

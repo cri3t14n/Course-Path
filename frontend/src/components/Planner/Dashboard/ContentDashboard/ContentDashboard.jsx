@@ -3,7 +3,7 @@ import React, { useState, useContext } from "react"
 import styles from './ContentDashboard.module.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons' 
+import { faCaretDown, faCaretUp, faPlus } from '@fortawesome/free-solid-svg-icons' 
 
 import DraggableItem from "./DraggableItem/DraggableItem"
 import CompletedItem from "./CompletedItem/CompletedItem"
@@ -103,7 +103,7 @@ export default function ContentDashboard(props) {
                                 
                                 {dropdownsOpen[index + 2] && (
                                     getCoursesInSchedule(selectedPlanID, category.courses).map((course) => (
-                                        <CompletedItem key={course.courseNr} course={course.name} schedulePlacement={getCourseTermDetails(selectedPlanID, course.courseNr)} itemColor={category.color} />
+                                        <CompletedItem key={course.courseNr} course={course.name} courseNr={course.courseNr} schedulePlacement={getCourseTermDetails(selectedPlanID, course.courseNr)} itemColor={category.color} />
                                     ))
                                 )}
 
@@ -135,6 +135,10 @@ export default function ContentDashboard(props) {
 
                 {dropdownsOpen[1] && (
                     <div className={styles.allRequirements}>
+                        <div className={styles.addCourse}>
+                            <div>Add Course</div>
+                            <FontAwesomeIcon icon={faPlus} />
+                        </div>
                         <div
                             key={plan.electiveCourses.name}
                             className={styles.requirementItem}
@@ -147,7 +151,7 @@ export default function ContentDashboard(props) {
 
                             {
                                 getElectivesInSchedule(selectedPlanID, plan.electiveCourses.courses).map((course) => (
-                                    <CompletedItem key={course.courseNr} course={course.name} schedulePlacement={getCourseTermDetails(selectedPlanID, course.courseNr)} itemColor={plan.electiveCourses.color} />
+                                    <CompletedItem key={course.courseNr} course={course.name} courseNr={course.courseNr} schedulePlacement={getCourseTermDetails(selectedPlanID, course.courseNr)} itemColor={plan.electiveCourses.color} />
                                 ))
                             }
                         

@@ -2,12 +2,13 @@ import React, { useState, useContext } from "react"
 
 import styles from './SemesterItem.module.css'
 
-import CourseItem from "./CourseItem/CourseItem"
+import CourseItem from "./SemesterContent/CourseItem/CourseItem"
 import { PlansContext } from "../../Planner"
 import { findCourseByNumber, findCategoryColorByCourseNumber, countTotalCreditsInTerm } from "./../../utils"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus, faEllipsis, faDownLeftAndUpRightToCenter, faUpRightAndDownLeftFromCenter } from '@fortawesome/free-solid-svg-icons' 
+import SemesterContent from "./SemesterContent/SemesterContent"
 
 
 export default function SemesterItem({semester}) {
@@ -49,14 +50,7 @@ export default function SemesterItem({semester}) {
             </div>
 
             {!semesterMinimized && (
-                <div className={styles.semesterContent}>
-                    {semester.coursesNr.map(courseNr => (
-                        <CourseItem 
-                            course={findCourseByNumber(selectedPlanID, courseNr)}
-                            itemColor={findCategoryColorByCourseNumber(selectedPlanID, courseNr)}
-                        />
-                    ))}
-                </div>
+                <SemesterContent semester={semester} />
             )}
         </div>
     )

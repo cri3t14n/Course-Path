@@ -10,11 +10,17 @@ export const PlansContext = createContext()
 
 export default function Planner() {
   const [selectedPlanID, setSelectedPlanID] = useState("1") // Default to the first plan
-
+  const [courseInfoList, setCourseInfoList] = useState([]) 
+  const [selectedCourseInfoNr, setSelectedCourseInfoNr] = useState("01003") 
+  const [courseInfoDropdownOpen, setCourseInfoDropdownOpen] = useState(true) 
+  
+  
   const value = {
     plans,
-    selectedPlanID,
-    setSelectedPlanID,
+    selectedPlanID, setSelectedPlanID,
+    courseInfoList, setCourseInfoList,
+    selectedCourseInfoNr, setSelectedCourseInfoNr,
+    courseInfoDropdownOpen, setCourseInfoDropdownOpen
   }
 
   return (
@@ -22,7 +28,7 @@ export default function Planner() {
       <div className={styles.planner}>
         <Dashboard />
         <Schedule />
-        {/* <BottomBar /> */}
+        {courseInfoList.length > 0 && <BottomBar />}      
       </div>
     </PlansContext.Provider>
   )
