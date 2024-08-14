@@ -13,22 +13,22 @@ export default function Planner() {
   const [courseData, setCourseData] = useState(null)
   const coursePlanId = 1; // Example ID
 
-  useEffect(() => {
-    fetch(`http://localhost:8000/api/Course-Plan/${coursePlanId}/`)
-      .then(response => {
-          if (!response.ok) {
-              throw new Error(`HTTP status ${response.status}`);
-          }
-          return response.json();
-      })
-      .then(data => {
-          console.log('Data:', data);
-          setCourseData(data); // Update state with fetched data
-      })
-      .catch(error => {
-          console.error('Fetch Error:', error.message);
-      });
-  }, []); 
+  // useEffect(() => {
+  //   fetch(`http://localhost:8000/api/Course-Plan/${coursePlanId}/`)
+  //     .then(response => {
+  //         if (!response.ok) {
+  //             throw new Error(`HTTP status ${response.status}`);
+  //         }
+  //         return response.json();
+  //     })
+  //     .then(data => {
+  //         console.log('Data:', data);
+  //         setCourseData(data); // Update state with fetched data
+  //     })
+  //     .catch(error => {
+  //         console.error('Fetch Error:', error.message);
+  //     });
+  // }, []); 
 
 
   const value = {
